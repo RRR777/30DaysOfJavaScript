@@ -84,7 +84,7 @@ function mostSpokenLanguages(countries, number) {
 
     for (const language of langSet) {
     const filteredLang = languages.filter(lng => lng === language);
-    counts.push({ count: filteredLang.length, lang: language, count: filteredLang.length });
+    counts.push({ count: filteredLang.length, lang: language });
     }
 
     counts.sort(function(a, b) {
